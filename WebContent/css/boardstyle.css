@@ -1,0 +1,199 @@
+@CHARSET "UTF-8";
+@media all and (min-width:1600px){
+	
+}
+/*페이지기본*/
+.page-main{
+	margin: 0 auto;
+	padding-top: 50px;
+	width: 100%;
+	overflow: hidden;
+	zoom: 1;
+}
+.align-left{
+	text-align:left;
+}
+.align-left-margin{
+	text-align:left;
+	padding-left:20px;
+}
+.align-center{
+	text-align:center;
+}
+.align-center-margin{
+	text-align:center;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.align-right{
+	text-align:right;
+}
+
+.align-right-bottommr{
+	text-align:right;
+	padding-bottom:10px;
+}
+
+/*버튼*/
+.btnBlack  {
+		display: inline-block;
+		height: 28px;
+		line-height: 28px;
+		padding: 0 20px;
+		background: #444;
+		color: #fff;
+		vertical-align: middle;
+		font-size: 12px;
+		border:none;
+	}
+.btnGrey  {
+		display: inline-block;
+		height: 28px;
+		line-height: 28px;
+		padding: 0 20px;
+		background: #929292;
+		color: #fff;
+		vertical-align: middle;
+		font-size: 12px;
+		border:none;
+	}
+/*찾기폼*/
+.commSearch {
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 10px;
+	clear: both;
+}
+.searchWrap {
+	float: right;
+}
+.searchWrap select {
+	border-radius: 0;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+}
+
+.searchWrap input[type="text"], .searchWrap input[type="password"] {
+	display: inline-block;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 5px;
+	border: 1px solid #ccc;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-oppearance: none;
+	border-radius: 0;
+}
+.btnWrap{
+	float:left;
+}
+/*리스트*/
+.commBoard {
+	font-size: 14px;
+	margin-bottom: 40px;
+	line-height: 1.2em;
+	overflow: hidden;
+	zoom: 1;
+}
+.commBoard table {
+		width: 100%;
+		border-collapse: collapse;
+		border-top: 2px solid #333;
+		text-align: center;
+	}
+.commBoard table caption {
+		width: 0;
+		height: 0;
+		overflow: hidden;
+		visibility: hidden;
+		font-size: 0;
+		line-height: 0;
+		display: none;
+	}
+.commBoard table thead {
+		display: table-header-group;
+		vertical-align: middle;
+		border-color: inherit;
+		background: #f8f8f8;
+	}
+.commBoard table th {
+		padding: 12px 0;
+		font-weight: 600;
+		color: #000;
+		font-size: 12px;
+		border-bottom: 1px solid #888;
+		background: url(../images/bgLine-red.gif) no-repeat right center;
+		text-align: center;
+	}
+.commBoard table tbody tr td {
+		padding: 10px 0;
+		border-bottom: 1px solid #ccc;
+		font-size: 13px;
+	}
+.commBoard table .commTitle {
+		text-align: left;
+		text-indent: 10px;
+	}
+	
+.boardPaging{
+		display: inline-block;
+		float: middle;
+		border: 1px solid #f1f1f1;
+		padding: 0px 0;
+		width: 22px;
+		height: 22px;
+		text-align: center;
+		line-height: 22px;
+		font-size: 11px;
+		margin-right: 5px;
+	}
+.noticebg{
+	border-radius:5px;background-color:red;width:35px;height:22px;padding-top:3px;
+	font-size:11px;color:white;
+}
+.noticebutton{
+	text-align:center; font-size:12px; line-height:18px; color:black;	
+}
+
+/*게시판디테일*/
+.commBoard-detail {
+	font-size: 14px;
+	margin-bottom: 40px;
+	line-height: 1.2em;
+	overflow: hidden;
+	zoom: 1;
+}
+.commBoard-View{
+	text-align: left;
+	text-indent: 10px;
+}
+
+.commBoard-detail table {
+		width: 100%;
+		border-collapse: collapse;
+		border-top: 2px solid #333;
+		border-bottom:1px solid #888;
+}
+.commBoard-detail table th {
+		padding: 12px 0;
+		font-weight: bold;
+		color: #000;
+		font-size: 12px;
+		border-top: 1px solid #888;
+		text-align: center;
+		background: url(../images/bgLine-red.gif) no-repeat right center;
+}
+.commBoard-detail table td {
+		padding: 12px 0;
+		font-weight: normal;
+		color: #000;
+		font-size: 12px;
+		border-top: 1px solid #888;
+		text-align: center;
+}
+.detail-img{
+	max-width:100%;
+}
