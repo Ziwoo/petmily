@@ -16,6 +16,5 @@
    - Oracle 11g
   
 - Front
-   - Front
-   - JavaScript
+   - Javascript
    - HTML5
