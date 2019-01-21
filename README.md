@@ -13,4 +13,9 @@
    - Sql developer
    
 - DBMS
-   - Oracle
+   - Oracle 11g
+  
+- Front
+   - Front
+   - JavaScript
+   - HTML5
